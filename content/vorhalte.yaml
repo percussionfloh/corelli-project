@@ -1,0 +1,15 @@
+vorhalte:
+
+    -
+        deg: I
+        endBassDeg: '1'
+        endBeat: 14
+        endLine: 47
+        key: C
+        pieceId: op04n01a
+        startBeat: 10
+        startLine: 40
+        tags:
+            - vorhalt
+
+# (eigentlich doppia)
