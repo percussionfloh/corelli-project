@@ -32,6 +32,10 @@ const items = [
         to: localePath({name: 'sequences'}),
     },
     {
+        label: t('suspensions'),
+        to: localePath({name: 'suspensions'}),
+    },
+    {
         label: t('faq'),
         to: localePath({name: 'faq'}),
     },
