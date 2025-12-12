@@ -84,3 +84,30 @@ pieceNotInFilterResultDescription: Weiterleitung zum ersten Ergebnis der gefilte
 noPiecesFound: Keine Stücke mit den gewählten Filtern gefunden
 dcmlOptions: DCML Optionen
 showDcmlAnnotations: Annotationen der DCML corpus initiative anzeigen
+filterPieces: Stücke filtern
+sequencesFilterCountTitle: '{count} / {total} ({piecesCount} Stücke)'
+countSequencesInPiece: '{n} Sequenzen'
+showHorizontalViewMode: Paritur horizontal anzeigen
+editAnnotations: Annotationen bearbeiten
+addModulation: Modulation hinzufügen
+addCadence: Kaadenz hinzufügen
+addSequence: Satzmodell hinzufügen
+createGithubIssue: Neues GitHub Issue erstellen
+downloadAnnotationsFile: Annotation-Datei herunterladen
+id: ID
+keyNames:
+    C: C-Dur
+    c: c-Moll
+    D: D-Dur
+    d: d-Moll
+    E-: Es-Dur
+    E: E-Dur
+    e: e-Moll
+    F: F-Dur
+    G: G-Dur
+    g: g-Moll
+    A: A-Dur
+    a: a-Moll
+    B-: B-Dur
+    B: H-Dur
+    b: h-Moll
