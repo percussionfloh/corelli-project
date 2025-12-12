@@ -9,7 +9,7 @@ const { t } = useI18n();
 const localePath = useLocalePath();
 
 const chords = chordsData.value.chords.filter(chord =>
-  chord.fb && (chord.fb.includes('2') || chord.fb.includes('4') || chord.fb.includes('7') || chord.fb.includes('9')) && (chord.meterWeight === 'strong' || chord.meterWeight === 'half-strong' || chord.meterWeight === 'weak')
+  chord.fbOriginal && (chord.fbOriginal.includes('2') || chord.fbOriginal.includes('4') || chord.fbOriginal.includes('7') || chord.fbOriginal.includes('9')) && (chord.meterWeight === 'strong' || chord.meterWeight === 'half-strong' || chord.meterWeight === 'weak')
 );
 
 const uniqueDegs = [...new Set(chords.map(chord => chord.deg))].toSorted((a, b) => {
