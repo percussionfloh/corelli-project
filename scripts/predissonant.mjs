@@ -38,8 +38,9 @@ chordsWith4Strong.forEach(chord => {
 });
 
 
+
 // Gruppieren nach 'deg'
-const groupedByDeg = chordsWith4Strong.reduce((acc, chord) => {
+const groupedByDeg = chordsWithContext.reduce((acc, chord) => {
   const degKey = chord.deg == null ? 'unknown' : String(chord.deg);
   if (!acc[degKey]) acc[degKey] = [];
   // optional: nur die relevanten Felder speichern
@@ -55,6 +56,8 @@ const groupedByDeg = chordsWith4Strong.reduce((acc, chord) => {
   return acc;
 }, {});
 
+// füge beide Arrays zusammen
+
 // Ausgabe: Objekt mit Keys = deg, Values = Array von Akkorden
 console.log(groupedByDeg);
 
@@ -63,7 +66,7 @@ const groupsSorted = Object.entries(groupedByDeg)
   .map(([deg, chords]) => ({ deg, count: chords.length, chords }))
   .sort((a, b) => b.count - a.count);
 
-// console.log(groupsSorted);
+console.log(groupsSorted);
 
 
 // const vorhalte = yaml.load(vorhalteAsString);
@@ -92,7 +95,8 @@ const groupsSorted = Object.entries(groupedByDeg)
 
                       //  <Chart :config="nextDegConfig"  /> such nach nextDegConfig
                       //  https://www.chartjs.org/
-//     console.log(output);   
+
+//      console.log(output);   
 
 // });
 
