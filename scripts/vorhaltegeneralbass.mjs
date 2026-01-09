@@ -15,11 +15,24 @@ const vorhalteAsString = fs.readFileSync(pathToVorhalt, 'utf8').toString();
 
 // YAML einlesen
 const chordsData = yaml.load(fs.readFileSync('./content/chords.yaml', 'utf8'));
+const sequencesData = yaml.load(fs.readFileSync('./content/sequences.yaml', 'utf8'));
 const allChords = (chordsData && chordsData.chords) ? chordsData.chords : [];
+const allSequences = (sequencesData && sequencesData.sequences) ? sequencesData.sequences : [];
 
-// Filter: fb enthält '4' UND meterWeight ist 'strong'
+// Helper function to check if a chord is within a sequence
+const isChordInSequence = (chord, sequences) => {
+  return sequences.some(seq => 
+    seq.pieceId === chord.pieceId &&
+    chord.lineNumber >= seq.startLine &&
+    chord.lineNumber <= seq.endLine &&
+    chord.beat >= seq.startBeat &&
+    chord.beat <= seq.endBeat
+  );
+};
+
+// Filter: fb enthält '4' UND meterWeight ist 'strong' und nicht in einer Sequenz
 const chordsWith4Strong = allChords.filter(chord =>
-  chord.fb && chord.fb.toString().includes('4') && chord.meterWeight === 'strong'
+  chord.fb && chord.fb.toString().includes('4') && chord.meterWeight === 'strong' && !isChordInSequence(chord, allSequences)
 );
 
 // Gruppieren nach 'deg'
@@ -48,7 +61,6 @@ const groupsSorted = Object.entries(groupedByDeg)
   .sort((a, b) => b.count - a.count);
 
 console.log(groupsSorted);
-
 
 // const vorhalte = yaml.load(vorhalteAsString);
 
