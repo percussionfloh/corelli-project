@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
 import { getIdFromFilename, getFiles, parseTimepoint } from './utils.mjs';
 
+
 // prepare the path variables for later use.
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const pathToVorhalt = `${__dirname}/../content/vorhalte.yaml`;
@@ -134,4 +135,11 @@ console.log(groupsSorted9);
             - 8 follows 9 AND 6 follows 7 (also not gleichzeitig) -> Septnonvorhalt
             
 */
-
+fs.writeFileSync(pathToVorhalt, yaml.dump({
+  9: groupsSorted9,
+  4: groupsSorted4,
+}, {
+    indent: 4,
+    lineWidth: -1,
+    sortKeys: true,
+}));
