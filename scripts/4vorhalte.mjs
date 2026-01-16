@@ -35,11 +35,16 @@ const chordsWith4Strong = allChords.filter(chord =>
   chord.fb && chord.fb.toString().includes('4') && chord.meterWeight === 'strong' && !isChordInSequence(chord, allSequences)
 );
 
+const chordsWith9Strong = allChords.filter(chord =>
+  chord.fb && chord.fb.toString().includes('9') && chord.meterWeight === 'strong' && !isChordInSequence(chord, allSequences)
+);
+
 // Gruppieren nach 'deg'
-const groupedByDeg = chordsWith4Strong.reduce((acc, chord) => {
+const groupedByDeg4 = chordsWith4Strong.reduce((acc, chord) => {
   const degKey = chord.deg == null ? 'unknown' : String(chord.deg);
   if (!acc[degKey]) acc[degKey] = [];
-  // optional: nur die relevanten Felder speichern
+
+    // optional: nur die relevanten Felder speichern
   acc[degKey].push({
     pieceId: chord.pieceId,
     lineNumber: chord.lineNumber,
@@ -52,15 +57,42 @@ const groupedByDeg = chordsWith4Strong.reduce((acc, chord) => {
   return acc;
 }, {});
 
+
+
+  const groupedByDeg9 = chordsWith9Strong.reduce((acc, chord) => {
+  const degKey = chord.deg == null ? 'unknown' : String(chord.deg);
+  if (!acc[degKey]) acc[degKey] = [];
+
+  acc[degKey].push({
+    pieceId: chord.pieceId,
+    lineNumber: chord.lineNumber,
+    beat: chord.beat,
+    fb: chord.fb,
+    hint: chord.hint,
+    meterWeight: chord.meterWeight,
+    original: chord, // falls du das ganze Objekt behalten willst
+  });
+  return acc;
+}, {});
+
+
+
 // Ausgabe: Objekt mit Keys = deg, Values = Array von Akkorden
 // console.log(groupedByDeg);
 
 // Optional: als sortierte Liste nach Häufigkeit
-const groupsSorted = Object.entries(groupedByDeg)
+const groupsSorted4 = Object.entries(groupedByDeg4)
   .map(([deg, chords]) => ({ deg, count: chords.length, chords }))
   .sort((a, b) => b.count - a.count);
 
-console.log(groupsSorted);
+const groupsSorted9 = Object.entries(groupedByDeg9)
+  .map(([deg, chords]) => ({ deg, count: chords.length, chords }))
+  .sort((a, b) => b.count - a.count);
+
+console.log(groupsSorted4);
+
+console.log(groupsSorted9);
+
 
 // const vorhalte = yaml.load(vorhalteAsString);
 
