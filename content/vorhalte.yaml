@@ -1,3 +1,528 @@
+'2':
+    -
+        chords:
+            -
+                beat: 12
+                fb: 4 2
+                hint: A4 M2
+                lineNumber: 46
+                meterWeight: strong
+                original: &ref_10
+                    beat: 12
+                    deg: '4'
+                    fb: 4 2
+                    fbOriginal: '#4| 2'
+                    hint: A4 M2
+                    lineNumber: 46
+                    meterWeight: strong
+                    nextDeg: '3'
+                    pieceId: op04n01c
+                    timeSig: 4/4
+                pieceId: op04n01c
+            -
+                beat: 60.5
+                fb: 4 2
+                hint: A4 M2
+                lineNumber: 160
+                meterWeight: strong
+                original: &ref_11
+                    beat: 60.5
+                    deg: '4'
+                    fb: 4 2
+                    fbOriginal: '#4| 2'
+                    hint: A4 M2
+                    lineNumber: 160
+                    meterWeight: strong
+                    nextDeg: '4'
+                    pieceId: op04n03b
+                    timeSig: 3/4
+                pieceId: op04n03b
+            -
+                beat: 48.5
+                fb: 4 2
+                hint: A4 M2
+                lineNumber: 91
+                meterWeight: strong
+                original: &ref_12
+                    beat: 48.5
+                    deg: '4'
+                    fb: 4 2
+                    fbOriginal: '#4| 2'
+                    hint: A4 M2
+                    lineNumber: 91
+                    meterWeight: strong
+                    nextDeg: '4'
+                    pieceId: op04n04b
+                    timeSig: 3/4
+                pieceId: op04n04b
+            -
+                beat: 4
+                fb: 4 2
+                hint: A4 M2
+                lineNumber: 26
+                meterWeight: strong
+                original: &ref_13
+                    beat: 4
+                    deg: '4'
+                    fb: 4 2
+                    fbOriginal: '#4| 2'
+                    hint: A4 M2
+                    lineNumber: 26
+                    meterWeight: strong
+                    nextDeg: '4'
+                    pieceId: op04n05a
+                    timeSig: 4/4
+                pieceId: op04n05a
+            -
+                beat: 24
+                fb: 4 2
+                hint: A4 M2
+                lineNumber: 64
+                meterWeight: strong
+                original: &ref_14
+                    beat: 24
+                    deg: '4'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: A4 M2
+                    lineNumber: 64
+                    meterWeight: strong
+                    nextDeg: '4'
+                    pieceId: op04n05a
+                    timeSig: 4/4
+                pieceId: op04n05a
+            -
+                beat: 24
+                fb: 7 2
+                hint: M7 M2
+                lineNumber: 67
+                meterWeight: strong
+                original:
+                    beat: 24
+                    deg: '4'
+                    fb: 7 2
+                    fbOriginal: '9 #7\'
+                    hint: M7 M2
+                    lineNumber: 67
+                    meterWeight: strong
+                    nextDeg: '4'
+                    pieceId: op04n06f
+                    timeSig: 4/4
+                pieceId: op04n06f
+            -
+                beat: 33
+                fb: 4 2
+                hint: A4 M2
+                lineNumber: 67
+                meterWeight: strong
+                original: &ref_15
+                    beat: 33
+                    deg: '4'
+                    fb: 4 2
+                    fbOriginal: '5'
+                    hint: A4 M2
+                    lineNumber: 67
+                    meterWeight: strong
+                    nextDeg: '3'
+                    pieceId: op04n07b
+                    timeSig: 3/4
+                pieceId: op04n07b
+            -
+                beat: 8
+                fb: 4 2
+                hint: A4 M2
+                lineNumber: 27
+                meterWeight: strong
+                original: &ref_16
+                    beat: 8
+                    deg: '4'
+                    fb: 4 2
+                    fbOriginal: '#4| 2'
+                    hint: A4 M2
+                    lineNumber: 27
+                    meterWeight: strong
+                    nextDeg: '3'
+                    pieceId: op04n07c
+                    timeSig: 4/4
+                pieceId: op04n07c
+            -
+                beat: 30
+                fb: 7 2
+                hint: m7 M2
+                lineNumber: 85
+                meterWeight: strong
+                original:
+                    beat: 30
+                    deg: '4'
+                    fb: 7 2
+                    fbOriginal: 9 7 -
+                    hint: m7 M2
+                    lineNumber: 85
+                    meterWeight: strong
+                    nextDeg: '6'
+                    pieceId: op04n08c
+                    timeSig: 6/8
+                pieceId: op04n08c
+            -
+                beat: 42
+                fb: 7 2
+                hint: m7 M2
+                lineNumber: 112
+                meterWeight: strong
+                original:
+                    beat: 42
+                    deg: '4'
+                    fb: 7 2
+                    fbOriginal: 9 7
+                    hint: m7 M2
+                    lineNumber: 112
+                    meterWeight: strong
+                    nextDeg: '6'
+                    pieceId: op04n08c
+                    timeSig: 6/8
+                pieceId: op04n08c
+            -
+                beat: 40
+                fb: 7 2
+                hint: m7 M2
+                lineNumber: 88
+                meterWeight: strong
+                original:
+                    beat: 40
+                    deg: '4'
+                    fb: 7 2
+                    fbOriginal: 9 7
+                    hint: m7 M2
+                    lineNumber: 88
+                    meterWeight: strong
+                    nextDeg: '4'
+                    pieceId: op04n09d
+                    timeSig: 2/2
+                pieceId: op04n09d
+            -
+                beat: 48
+                fb: 7 2
+                hint: m7 M2
+                lineNumber: 99
+                meterWeight: strong
+                original:
+                    beat: 48
+                    deg: '4'
+                    fb: 7 2
+                    fbOriginal: 9 7
+                    hint: m7 M2
+                    lineNumber: 99
+                    meterWeight: strong
+                    nextDeg: '4'
+                    pieceId: op04n09d
+                    timeSig: 2/2
+                pieceId: op04n09d
+            -
+                beat: 16
+                fb: 4 2
+                hint: A4 M2
+                lineNumber: 40
+                meterWeight: strong
+                original: &ref_17
+                    beat: 16
+                    deg: '4'
+                    fb: 4 2
+                    fbOriginal: '#4\ #2\'
+                    hint: A4 M2
+                    lineNumber: 40
+                    meterWeight: strong
+                    nextDeg: '3'
+                    pieceId: op04n10d
+                    timeSig: 4/4
+                pieceId: op04n10d
+            -
+                beat: 28.5
+                fb: 4 2
+                hint: A4 M2
+                lineNumber: 85
+                meterWeight: strong
+                original: &ref_18
+                    beat: 28.5
+                    deg: '4'
+                    fb: 4 2
+                    fbOriginal: '4 #2\'
+                    hint: A4 M2
+                    lineNumber: 85
+                    meterWeight: strong
+                    nextDeg: '4'
+                    pieceId: op04n12b
+                    timeSig: 2/2
+                pieceId: op04n12b
+            -
+                beat: 92.5
+                fb: 4 2
+                hint: A4 M2
+                lineNumber: 226
+                meterWeight: strong
+                original: &ref_19
+                    beat: 92.5
+                    deg: '4'
+                    fb: 4 2
+                    fbOriginal: '#4\ 2'
+                    hint: A4 M2
+                    lineNumber: 226
+                    meterWeight: strong
+                    nextDeg: '4'
+                    pieceId: op04n12b
+                    timeSig: 2/2
+                pieceId: op04n12b
+        count: 15
+        deg: '4'
+    -
+        chords:
+            -
+                beat: 36
+                fb: 4 2
+                hint: P4 M2
+                lineNumber: 69
+                meterWeight: strong
+                original: &ref_1
+                    beat: 36
+                    deg: '1'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 M2
+                    lineNumber: 69
+                    meterWeight: strong
+                    nextDeg: '7'
+                    pieceId: op01n07b
+                    timeSig: 4/4
+                pieceId: op01n07b
+            -
+                beat: 4
+                fb: 4 2
+                hint: P4 M2
+                lineNumber: 23
+                meterWeight: strong
+                original: &ref_2
+                    beat: 4
+                    deg: '1'
+                    fb: 4 2
+                    fbOriginal: '-r4 2'
+                    hint: P4 M2
+                    lineNumber: 23
+                    meterWeight: strong
+                    nextDeg: '1'
+                    pieceId: op03n03a
+                    timeSig: 4/4
+                pieceId: op03n03a
+            -
+                beat: 9
+                fb: 4 2
+                hint: P4 M2
+                lineNumber: 30
+                meterWeight: strong
+                original: &ref_3
+                    beat: 9
+                    deg: '1'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 M2
+                    lineNumber: 30
+                    meterWeight: strong
+                    nextDeg: 7+
+                    pieceId: op04n02d
+                    timeSig: 3/4
+                pieceId: op04n02d
+            -
+                beat: 4
+                fb: 4 2
+                hint: P4 M2
+                lineNumber: 24
+                meterWeight: strong
+                original: &ref_4
+                    beat: 4
+                    deg: '1'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 M2
+                    lineNumber: 24
+                    meterWeight: strong
+                    nextDeg: '7'
+                    pieceId: op04n04a
+                    timeSig: 4/4
+                pieceId: op04n04a
+            -
+                beat: 16
+                fb: 4 2
+                hint: P4 M2
+                lineNumber: 36
+                meterWeight: strong
+                original: &ref_5
+                    beat: 16
+                    deg: '1'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 M2
+                    lineNumber: 36
+                    meterWeight: strong
+                    nextDeg: '7'
+                    pieceId: op04n04a
+                    timeSig: 4/4
+                pieceId: op04n04a
+            -
+                beat: 27.5
+                fb: 4 2
+                hint: P4 M2
+                lineNumber: 61
+                meterWeight: strong
+                original: &ref_6
+                    beat: 27.5
+                    deg: '1'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 M2
+                    lineNumber: 61
+                    meterWeight: strong
+                    nextDeg: '7'
+                    pieceId: op04n04b
+                    timeSig: 3/4
+                pieceId: op04n04b
+            -
+                beat: 48.5
+                fb: 4 2
+                hint: P4 M2
+                lineNumber: 124
+                meterWeight: strong
+                original: &ref_7
+                    beat: 48.5
+                    deg: '1'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 M2
+                    lineNumber: 124
+                    meterWeight: strong
+                    nextDeg: '1'
+                    pieceId: op04n04d
+                    timeSig: 12/8
+                pieceId: op04n04d
+            -
+                beat: 21
+                fb: 4 2
+                hint: P4 M2
+                lineNumber: 51
+                meterWeight: strong
+                original: &ref_8
+                    beat: 21
+                    deg: '1'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 M2
+                    lineNumber: 51
+                    meterWeight: strong
+                    nextDeg: '7'
+                    pieceId: op04n07b
+                    timeSig: 3/4
+                pieceId: op04n07b
+            -
+                beat: 93
+                fb: 4 2
+                hint: P4 M2
+                lineNumber: 153
+                meterWeight: strong
+                original: &ref_9
+                    beat: 93
+                    deg: '1'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 M2
+                    lineNumber: 153
+                    meterWeight: strong
+                    nextDeg: '7'
+                    pieceId: op04n07b
+                    timeSig: 3/4
+                pieceId: op04n07b
+        count: 9
+        deg: '1'
+    -
+        chords:
+            -
+                beat: 24
+                fb: 4 2
+                hint: P4 m2
+                lineNumber: 55
+                meterWeight: strong
+                original: &ref_20
+                    beat: 24
+                    deg: '7'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 m2
+                    lineNumber: 55
+                    meterWeight: strong
+                    nextDeg: '6'
+                    pieceId: op04n07b
+                    timeSig: 3/4
+                pieceId: op04n07b
+            -
+                beat: 96
+                fb: 4 2
+                hint: P4 m2
+                lineNumber: 157
+                meterWeight: strong
+                original: &ref_21
+                    beat: 96
+                    deg: '7'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 m2
+                    lineNumber: 157
+                    meterWeight: strong
+                    nextDeg: '6'
+                    pieceId: op04n07b
+                    timeSig: 3/4
+                pieceId: op04n07b
+        count: 2
+        deg: '7'
+    -
+        chords:
+            -
+                beat: 30
+                fb: 4 2
+                hint: P4 M2
+                lineNumber: 63
+                meterWeight: strong
+                original: &ref_0
+                    beat: 30
+                    deg: '5'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 M2
+                    lineNumber: 63
+                    meterWeight: strong
+                    nextDeg: '4'
+                    pieceId: op04n07b
+                    timeSig: 3/4
+                pieceId: op04n07b
+        count: 1
+        deg: '5'
+    -
+        chords:
+            -
+                beat: 27
+                fb: 4 2
+                hint: P4 M2
+                lineNumber: 59
+                meterWeight: strong
+                original: &ref_22
+                    beat: 27
+                    deg: '6'
+                    fb: 4 2
+                    fbOriginal: 4 2
+                    hint: P4 M2
+                    lineNumber: 59
+                    meterWeight: strong
+                    nextDeg: '5'
+                    pieceId: op04n07b
+                    timeSig: 3/4
+                pieceId: op04n07b
+        count: 1
+        deg: '6'
 '4':
     -
         chords:
@@ -601,17 +1126,7 @@
                 hint: P4 M2
                 lineNumber: 63
                 meterWeight: strong
-                original:
-                    beat: 30
-                    deg: '5'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 M2
-                    lineNumber: 63
-                    meterWeight: strong
-                    nextDeg: '4'
-                    pieceId: op04n07b
-                    timeSig: 3/4
+                original: *ref_0
                 pieceId: op04n07b
             -
                 beat: 9
@@ -1091,17 +1606,7 @@
                 hint: P4 M2
                 lineNumber: 69
                 meterWeight: strong
-                original:
-                    beat: 36
-                    deg: '1'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 M2
-                    lineNumber: 69
-                    meterWeight: strong
-                    nextDeg: '7'
-                    pieceId: op01n07b
-                    timeSig: 4/4
+                original: *ref_1
                 pieceId: op01n07b
             -
                 beat: 48
@@ -1145,17 +1650,7 @@
                 hint: P4 M2
                 lineNumber: 23
                 meterWeight: strong
-                original:
-                    beat: 4
-                    deg: '1'
-                    fb: 4 2
-                    fbOriginal: '-r4 2'
-                    hint: P4 M2
-                    lineNumber: 23
-                    meterWeight: strong
-                    nextDeg: '1'
-                    pieceId: op03n03a
-                    timeSig: 4/4
+                original: *ref_2
                 pieceId: op03n03a
             -
                 beat: 87.5
@@ -1181,17 +1676,7 @@
                 hint: P4 M2
                 lineNumber: 30
                 meterWeight: strong
-                original:
-                    beat: 9
-                    deg: '1'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 M2
-                    lineNumber: 30
-                    meterWeight: strong
-                    nextDeg: 7+
-                    pieceId: op04n02d
-                    timeSig: 3/4
+                original: *ref_3
                 pieceId: op04n02d
             -
                 beat: 12
@@ -1253,17 +1738,7 @@
                 hint: P4 M2
                 lineNumber: 24
                 meterWeight: strong
-                original:
-                    beat: 4
-                    deg: '1'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 M2
-                    lineNumber: 24
-                    meterWeight: strong
-                    nextDeg: '7'
-                    pieceId: op04n04a
-                    timeSig: 4/4
+                original: *ref_4
                 pieceId: op04n04a
             -
                 beat: 16
@@ -1271,17 +1746,7 @@
                 hint: P4 M2
                 lineNumber: 36
                 meterWeight: strong
-                original:
-                    beat: 16
-                    deg: '1'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 M2
-                    lineNumber: 36
-                    meterWeight: strong
-                    nextDeg: '7'
-                    pieceId: op04n04a
-                    timeSig: 4/4
+                original: *ref_5
                 pieceId: op04n04a
             -
                 beat: 27.5
@@ -1289,17 +1754,7 @@
                 hint: P4 M2
                 lineNumber: 61
                 meterWeight: strong
-                original:
-                    beat: 27.5
-                    deg: '1'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 M2
-                    lineNumber: 61
-                    meterWeight: strong
-                    nextDeg: '7'
-                    pieceId: op04n04b
-                    timeSig: 3/4
+                original: *ref_6
                 pieceId: op04n04b
             -
                 beat: 48.5
@@ -1307,17 +1762,7 @@
                 hint: P4 M2
                 lineNumber: 124
                 meterWeight: strong
-                original:
-                    beat: 48.5
-                    deg: '1'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 M2
-                    lineNumber: 124
-                    meterWeight: strong
-                    nextDeg: '1'
-                    pieceId: op04n04d
-                    timeSig: 12/8
+                original: *ref_7
                 pieceId: op04n04d
             -
                 beat: 93
@@ -1397,17 +1842,7 @@
                 hint: P4 M2
                 lineNumber: 51
                 meterWeight: strong
-                original:
-                    beat: 21
-                    deg: '1'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 M2
-                    lineNumber: 51
-                    meterWeight: strong
-                    nextDeg: '7'
-                    pieceId: op04n07b
-                    timeSig: 3/4
+                original: *ref_8
                 pieceId: op04n07b
             -
                 beat: 93
@@ -1415,17 +1850,7 @@
                 hint: P4 M2
                 lineNumber: 153
                 meterWeight: strong
-                original:
-                    beat: 93
-                    deg: '1'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 M2
-                    lineNumber: 153
-                    meterWeight: strong
-                    nextDeg: '7'
-                    pieceId: op04n07b
-                    timeSig: 3/4
+                original: *ref_9
                 pieceId: op04n07b
         count: 20
         deg: '1'
@@ -1437,17 +1862,7 @@
                 hint: A4 M2
                 lineNumber: 46
                 meterWeight: strong
-                original:
-                    beat: 12
-                    deg: '4'
-                    fb: 4 2
-                    fbOriginal: '#4| 2'
-                    hint: A4 M2
-                    lineNumber: 46
-                    meterWeight: strong
-                    nextDeg: '3'
-                    pieceId: op04n01c
-                    timeSig: 4/4
+                original: *ref_10
                 pieceId: op04n01c
             -
                 beat: 60.5
@@ -1455,17 +1870,7 @@
                 hint: A4 M2
                 lineNumber: 160
                 meterWeight: strong
-                original:
-                    beat: 60.5
-                    deg: '4'
-                    fb: 4 2
-                    fbOriginal: '#4| 2'
-                    hint: A4 M2
-                    lineNumber: 160
-                    meterWeight: strong
-                    nextDeg: '4'
-                    pieceId: op04n03b
-                    timeSig: 3/4
+                original: *ref_11
                 pieceId: op04n03b
             -
                 beat: 135.5
@@ -1491,17 +1896,7 @@
                 hint: A4 M2
                 lineNumber: 91
                 meterWeight: strong
-                original:
-                    beat: 48.5
-                    deg: '4'
-                    fb: 4 2
-                    fbOriginal: '#4| 2'
-                    hint: A4 M2
-                    lineNumber: 91
-                    meterWeight: strong
-                    nextDeg: '4'
-                    pieceId: op04n04b
-                    timeSig: 3/4
+                original: *ref_12
                 pieceId: op04n04b
             -
                 beat: 114.5
@@ -1527,17 +1922,7 @@
                 hint: A4 M2
                 lineNumber: 26
                 meterWeight: strong
-                original:
-                    beat: 4
-                    deg: '4'
-                    fb: 4 2
-                    fbOriginal: '#4| 2'
-                    hint: A4 M2
-                    lineNumber: 26
-                    meterWeight: strong
-                    nextDeg: '4'
-                    pieceId: op04n05a
-                    timeSig: 4/4
+                original: *ref_13
                 pieceId: op04n05a
             -
                 beat: 24
@@ -1545,17 +1930,7 @@
                 hint: A4 M2
                 lineNumber: 64
                 meterWeight: strong
-                original:
-                    beat: 24
-                    deg: '4'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: A4 M2
-                    lineNumber: 64
-                    meterWeight: strong
-                    nextDeg: '4'
-                    pieceId: op04n05a
-                    timeSig: 4/4
+                original: *ref_14
                 pieceId: op04n05a
             -
                 beat: 52
@@ -1581,17 +1956,7 @@
                 hint: A4 M2
                 lineNumber: 67
                 meterWeight: strong
-                original:
-                    beat: 33
-                    deg: '4'
-                    fb: 4 2
-                    fbOriginal: '5'
-                    hint: A4 M2
-                    lineNumber: 67
-                    meterWeight: strong
-                    nextDeg: '3'
-                    pieceId: op04n07b
-                    timeSig: 3/4
+                original: *ref_15
                 pieceId: op04n07b
             -
                 beat: 8
@@ -1599,17 +1964,7 @@
                 hint: A4 M2
                 lineNumber: 27
                 meterWeight: strong
-                original:
-                    beat: 8
-                    deg: '4'
-                    fb: 4 2
-                    fbOriginal: '#4| 2'
-                    hint: A4 M2
-                    lineNumber: 27
-                    meterWeight: strong
-                    nextDeg: '3'
-                    pieceId: op04n07c
-                    timeSig: 4/4
+                original: *ref_16
                 pieceId: op04n07c
             -
                 beat: 16
@@ -1617,17 +1972,7 @@
                 hint: A4 M2
                 lineNumber: 40
                 meterWeight: strong
-                original:
-                    beat: 16
-                    deg: '4'
-                    fb: 4 2
-                    fbOriginal: '#4\ #2\'
-                    hint: A4 M2
-                    lineNumber: 40
-                    meterWeight: strong
-                    nextDeg: '3'
-                    pieceId: op04n10d
-                    timeSig: 4/4
+                original: *ref_17
                 pieceId: op04n10d
             -
                 beat: 51.5
@@ -1653,17 +1998,7 @@
                 hint: A4 M2
                 lineNumber: 85
                 meterWeight: strong
-                original:
-                    beat: 28.5
-                    deg: '4'
-                    fb: 4 2
-                    fbOriginal: '4 #2\'
-                    hint: A4 M2
-                    lineNumber: 85
-                    meterWeight: strong
-                    nextDeg: '4'
-                    pieceId: op04n12b
-                    timeSig: 2/2
+                original: *ref_18
                 pieceId: op04n12b
             -
                 beat: 92.5
@@ -1671,17 +2006,7 @@
                 hint: A4 M2
                 lineNumber: 226
                 meterWeight: strong
-                original:
-                    beat: 92.5
-                    deg: '4'
-                    fb: 4 2
-                    fbOriginal: '#4\ 2'
-                    hint: A4 M2
-                    lineNumber: 226
-                    meterWeight: strong
-                    nextDeg: '4'
-                    pieceId: op04n12b
-                    timeSig: 2/2
+                original: *ref_19
                 pieceId: op04n12b
         count: 14
         deg: '4'
@@ -1733,17 +2058,7 @@
                 hint: P4 m2
                 lineNumber: 55
                 meterWeight: strong
-                original:
-                    beat: 24
-                    deg: '7'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 m2
-                    lineNumber: 55
-                    meterWeight: strong
-                    nextDeg: '6'
-                    pieceId: op04n07b
-                    timeSig: 3/4
+                original: *ref_20
                 pieceId: op04n07b
             -
                 beat: 96
@@ -1751,17 +2066,7 @@
                 hint: P4 m2
                 lineNumber: 157
                 meterWeight: strong
-                original:
-                    beat: 96
-                    deg: '7'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 m2
-                    lineNumber: 157
-                    meterWeight: strong
-                    nextDeg: '6'
-                    pieceId: op04n07b
-                    timeSig: 3/4
+                original: *ref_21
                 pieceId: op04n07b
         count: 2
         deg: '7'
@@ -1795,17 +2100,7 @@
                 hint: P4 M2
                 lineNumber: 59
                 meterWeight: strong
-                original:
-                    beat: 27
-                    deg: '6'
-                    fb: 4 2
-                    fbOriginal: 4 2
-                    hint: P4 M2
-                    lineNumber: 59
-                    meterWeight: strong
-                    nextDeg: '5'
-                    pieceId: op04n07b
-                    timeSig: 3/4
+                original: *ref_22
                 pieceId: op04n07b
         count: 1
         deg: '6'
