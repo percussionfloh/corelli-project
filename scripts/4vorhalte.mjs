@@ -32,6 +32,10 @@ const isChordInSequence = (chord, sequences) => {
 };
 
 // Filter: fb enthält '4' UND meterWeight ist 'strong' und nicht in einer Sequenz
+const chordsWith2Strong = allChords.filter(chord =>
+  chord.fb && chord.fb.toString().includes('2') && chord.meterWeight === 'strong' && !isChordInSequence(chord, allSequences)
+);
+
 const chordsWith4Strong = allChords.filter(chord =>
   chord.fb && chord.fb.toString().includes('4') && chord.meterWeight === 'strong' && !isChordInSequence(chord, allSequences)
 );
@@ -41,6 +45,23 @@ const chordsWith9Strong = allChords.filter(chord =>
 );
 
 // Gruppieren nach 'deg'
+const groupedByDeg2 = chordsWith2Strong.reduce((acc, chord) => {
+  const degKey = chord.deg == null ? 'unknown' : String(chord.deg);
+  if (!acc[degKey]) acc[degKey] = [];
+
+    // optional: nur die relevanten Felder speichern
+  acc[degKey].push({
+    pieceId: chord.pieceId,
+    lineNumber: chord.lineNumber,
+    beat: chord.beat,
+    fb: chord.fb,
+    hint: chord.hint,
+    meterWeight: chord.meterWeight,
+    original: chord, // falls du das ganze Objekt behalten willst
+  });
+  return acc;
+}, {});
+
 const groupedByDeg4 = chordsWith4Strong.reduce((acc, chord) => {
   const degKey = chord.deg == null ? 'unknown' : String(chord.deg);
   if (!acc[degKey]) acc[degKey] = [];
@@ -82,6 +103,10 @@ const groupedByDeg4 = chordsWith4Strong.reduce((acc, chord) => {
 // console.log(groupedByDeg);
 
 // Optional: als sortierte Liste nach Häufigkeit
+const groupsSorted2 = Object.entries(groupedByDeg2)
+  .map(([deg, chords]) => ({ deg, count: chords.length, chords }))
+  .sort((a, b) => b.count - a.count);
+
 const groupsSorted4 = Object.entries(groupedByDeg4)
   .map(([deg, chords]) => ({ deg, count: chords.length, chords }))
   .sort((a, b) => b.count - a.count);
@@ -89,10 +114,6 @@ const groupsSorted4 = Object.entries(groupedByDeg4)
 const groupsSorted9 = Object.entries(groupedByDeg9)
   .map(([deg, chords]) => ({ deg, count: chords.length, chords }))
   .sort((a, b) => b.count - a.count);
-
-console.log(groupsSorted4);
-
-console.log(groupsSorted9);
 
 
 // const vorhalte = yaml.load(vorhalteAsString);
@@ -138,6 +159,7 @@ console.log(groupsSorted9);
 fs.writeFileSync(pathToVorhalt, yaml.dump({
   9: groupsSorted9,
   4: groupsSorted4,
+  2: groupsSorted2,
 }, {
     indent: 4,
     lineWidth: -1,
